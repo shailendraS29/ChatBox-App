@@ -1,0 +1,44 @@
+name: chatbox_app
+description: A polished Flutter chat app with stories, calls, and profile features.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  google_fonts: ^6.0.0
+  cupertino_icons: ^1.0.8
+  flutter_staggered_grid_view: ^0.6.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.3.5
+
+# flutter_icons
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.jpg"
+
+# flutter_native_splash
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/app_icon.jpg
+  android: true
+  ios: true
+  web: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/stories/
